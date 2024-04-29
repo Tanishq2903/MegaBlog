@@ -1,9 +1,13 @@
 import Select from "./Select";
 import Header from "./header/Header";
+<<<<<<< HEAD
 import Footer from "./footer/Footer";
+=======
+import Footer from "./footer/footer";
+>>>>>>> 862aa4a16eeb518d0dfa5fc5abf545e71214816c
 import Container from "./container/Container";
 import Logo from "./Logo";
-import LogoutBtn from "./Header/LogoutBtn";
+import LogoutBtn from "./header/LogoutBtn";
 import RTE from "./RTE";
 import Signup from "./Signup";
 import Login from "./Login";
