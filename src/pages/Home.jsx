@@ -13,18 +13,21 @@ function Home() {
         })
     }, [])
   
-    if (posts.length === 0) {
+    if (posts.length  == 0) {
         return (
-            <div className="w-full py-8 mt-4 justify-self-center">
+            <div className="w-full py-8 mt-4 justify-self-center ">
                 <Container>
                     <div className="flex flex-wrap">
-                        <div className="p-2 w-full">
-                            <h1 className="text-2xl font-bold hover:text-gray-500">
+                        <div className="p-2 w-full flex flex-col">
+                            <h1 className="text-2xl font-bold">
 
-                                Login to read posts
+                                Welcome!Please Login To Continue
+              
                             </h1>
-                          
+                            <img src='https://images.pexels.com/photos/5076522/pexels-photo-5076522.jpeg?auto=compress&cs=tinysrgb&w=600'></img>
                         </div>
+              
+                
                     </div>
                 </Container>
             </div>

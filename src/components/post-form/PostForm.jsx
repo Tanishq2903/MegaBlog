@@ -95,8 +95,8 @@ function PostForm({ post }) {
     }, [watch, slugTransform, setValue])
 
     return (
-        <form onSubmit={handleSubmit(submit)} className="flex flex-wrap">
-            <div className="w-2/3 px-2">
+        <form onSubmit={handleSubmit(submit)} className="flex flex-wrap bg-pink-500">
+            <div className="w-2/3 py-8x">
                 <Input
                     label="Title :"
                     placeholder="Title"
